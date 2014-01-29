@@ -9,7 +9,14 @@ body {
 header {
   margin: 0.25in auto 0 auto;
   width: 7.5in;
+  height: 4em;
   display: table;
+}
+
+hr.header {
+  border: 0;
+  height: 1px;
+  background-color: #666;
 }
 
 h1 {
@@ -37,11 +44,11 @@ address {
 }
 
 address a {
-  color: #55F;
+  color: inherit;
 }
 
 address a:hover {
-  color: #00D;
+  color: inherit;
 }
 
 nav {
@@ -53,7 +60,7 @@ nav {
 }
 
 nav ul {
-  padding: 10px 1em;
+  padding: 0.5em 1em;
 }
 
 nav li {
@@ -89,13 +96,26 @@ div.content {
   body {
     background-color: #1F1F1F;
     margin: 0;
-    font-size: small;
+    /* font-size: small; */
   }
   
   header {
     margin: 10px 0 0 0;
+    height: 2em;
     max-width: 100%;
     display: block;
+  }
+
+  nav {
+    margin: 6em 0 0 0;
+  }
+ 
+  nav ul {
+    padding: 0 1em;
+  }
+
+  nav li {
+    display: list-item;
   }
   
   h1 {
@@ -109,14 +129,6 @@ div.content {
     display: block;
     text-align: center;
     color: #DDD;
-  }
-  
-  address a {
-    color: #AAD;
-  }
-
-  address a:hover {
-    color: #99F;
   }
   
   #main-content {

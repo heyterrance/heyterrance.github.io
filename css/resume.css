@@ -2,14 +2,12 @@ section {
   width: 7.5in;
   margin: 0.25in auto;
   padding: 0.1in 0.25in;
-
-  border-radius: 4px;
 }
 
 hr {
   border: 0;
   height: 1px;
-  background-color: #DADADA;
+  background-color: #DFDFDF;
 }
 
 hr.spacer {
@@ -66,13 +64,13 @@ table {
 }
 
 div.table-left {
-  width: 50%;
   float: left;
+  padding-right: 6em;
   margin: 0 auto;
+  padding: 0 auto;
 }
 
 div.table-right {
-  width: 50%;
   margin: 0 auto;
 }
 
@@ -126,12 +124,12 @@ div.table-right {
     width: auto;
   }
 
-  #table-left {
+  div.table-left {
     width: auto
     float: none;
   }
 
-  #table-right {
+  div.table-right {
     width: auto;
   }
 }
